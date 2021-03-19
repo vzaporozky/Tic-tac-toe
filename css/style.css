@@ -1,0 +1,150 @@
+#game {
+    width: 510px;
+    height: 510px;
+    background: #333333;
+    padding-top: 60px;
+    margin-left: 70px;
+}
+
+#back {
+    width: 900px;
+    height: 650px;
+    background: #333333;
+    margin: auto;
+}
+
+h1 {
+    position: absolute;
+    top: -20px;
+    text-align: center;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    right:550px;
+    padding-top: 10px;
+    font-family: 'Secular One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+.turns {
+    font-family: 'Secular One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+#result {
+    font-family: 'Secular One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  color:white;
+}
+
+.block {
+    width: 150px;
+    height: 150px;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 0px 0px white, 5px 5px #c8893e;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: #c1c1c1;
+    line-height: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #333333;
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+}
+
+#clicks {
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.block_winner {
+    color: green;
+    font-size: 80px;
+}
+
+.panel {
+    width: 200px;
+    height: 490px;
+    background: #c1c1c1;
+    margin-top: -490px;
+    margin-right: 90px;
+    float: right;
+    text-align: center;
+}
+
+.panel_winner {
+    background: green;
+    color: white;
+}
+
+.panel_draw {
+    background: #c8893e;
+    color: #333333;
+}
+
+.block_draw {
+    color: yellow;
+    font-size: 80px;
+}
+
+.winner_text {
+    font-size: 40px;
+}
+
+.player_1 {
+    width: 150px;
+    height: 30px;
+    margin-top: 40px;
+    border: none;
+    background-color: #c8893e;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.player_change1 {
+    background-color: lightgray;
+}
+
+.player_change2 {
+    background-color: #c8893e;
+}
+
+.player_onn {
+    background-color: yellow;
+}
+
+.player_2 {
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.reset {
+    width: 150px;
+    height: 40px;
+    border-radius: 1rem;
+    margin-top: 0px;
+    border: none;
+    background-color: #333333;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    outline:none;
+}
+
+.result_message {
+    width: 200px;
+    height: 150px;
+    margin: 80px 0px 20px;
+}

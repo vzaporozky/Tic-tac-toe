@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Tic tac toe</title>
+    <meta name="description" content="t09. Tic tac toe">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div id="back">
+        <h1>Tic tac toe</h1>
+        <div id="game"></div>
+        <div id="panel" class="panel">
+            <div>
+                <button id="player_1" class="player_1" type="button">Player 1</button><br><br>
+                <button id="player_2" class="player_2" type="button">Player 2</button>
+                <p class="turns" id="turns">Number of turns<br> <a id="clicks">0</a></p>
+                <p class="result_message" id="result"></p>
+            </div>
+            <div>
+                <button class="reset" value="Refresh Page" onClick="window.location.reload();">PLAY AGAIN</button>
+            </div>
+        </div>
+</body>
+
+</html>
